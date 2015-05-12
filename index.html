@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Full-Stack JavaScript project" content="">
+    <meta name="Ervin Kleitz Gonzales">
+<!--     <link rel="shortcut icon" href="assets/img/favicon.png"> -->
+   	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+   	<script type="text/javascript" src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <title>Poke Guess</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Press+Start+2P:300,400,500' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="landing.html"><b>Poke Guess</b></a>
+        </div>
+    </div>
+
+    <!-- modals -->
+	<dialog id="myDialogWin">Congratulations!<br>You won!!!</dialog>
+	<dialog id="myDialogLose">Sorry...<br>You lose :(</dialog>
+	<!-- modals -->
+	<div id="game">
+	<div id="index_header">
+
+		<!-- timer -->
+		<h1 id="timerdisplay">Time Remaining: 0:10</h1>
+
+		<!-- start of scores -->
+		<div class="scores">
+
+			<!-- correct guess score board -->
+			<div class="win_score">
+				<h1>Correct</h1>
+				<div class = "pokeballs" id="pokeballs">
+				<!-- pokeballs go here -->
+				</div>
+			</div>
+			<!-- correct guess score board -->
+
+			<!-- wrong guess score board -->
+			<div class="lose_score">
+				<h1>Time up(s)</h1>
+				<div class="koffings" id="koffings">
+				<!--koffing images go here-->
+				</div>
+			</div>
+			<!-- wrong guess score board -->
+
+		</div>
+		<!-- end of scores -->
+
+		<!-- Title Heading -->
+		<div class="title_landing">
+			<img src="assets/img/title.png">
+		</div>
+
+		<!-- pokemon area -->
+		<div class="pokemon_image_area">
+			<img id="pokemonimage" src="">
+		</div>
+		<!-- pokemon area -->
+
+		<!-- input -->
+		<form class="input_form" role="" onsubmit="return false">
+		 	<input type="text" class="input form-control" id="inputPokemon" placeholder="Enter pokemon name">
+		 	<button type="button" class="btn btn-warning btn-lg" id="sendPokemon">Submit</button>
+		</form>					
+		<!-- input -->
+
+	</div><!-- /headerwrap -->
+
+	<footer>
+    	<span>A Javascript exercise by Ervin Kleitz Gonzales</span>
+  	</footer>
+	
+	<audio id="correct" src="assets/audio/correct_guess.wav"></audio>
+	<audio id="wrong" src="assets/audio/incorrect_guess.wav"></audio>
+	<audio id="gameOver" src="assets/audio/game_over.wav"></audio>
+	<audio id="win" src="assets/audio/win_music.wav"></audio>
+	
+  </body>
+</html>

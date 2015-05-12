@@ -1,0 +1,229 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: FLATTY - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    background-image: url("../img/pokemon_background.jpg");
+    background-size: cover;
+    background-color: #3498db;
+
+    background-position: center ;
+    min-height: 60rem;
+    width: 100%;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+h1 {
+	font-size: 20px;
+    color: white;
+}
+
+h3 {
+	color: #95a5a6;
+	font-weight: 400;
+}
+
+h4 {
+	color: #95a5a6;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.navbar-default {
+	background-color: #3498db;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.form-control {
+	height: 42px;
+	font-size: 18px;
+	width: 280px;
+}
+
+i {
+	margin: 8px;
+	color: #3498db; 
+}
+
+#timerdisplay {
+    padding-left: 0.5em;
+    font-weight: bold;
+}
+
+#header {
+    padding-top: 120px;
+}
+
+#index_header {
+    padding-top: 40px;
+}
+
+.title_landing, .start, .pokemon_image_area, .pokeballs_landing,
+.input_form {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.pokeballs_landing img {
+    height: 50px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.pokeballs img {
+    height: 30px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.koffings img {
+    height: 30px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.instructions {
+    display: block;
+    border-radius: 10px;
+    width: 25em;
+    height: 5em;
+    text-align: center;
+    padding-top: 0.5em;
+    margin-top: 300px;
+    background-color: rgba(52,152,219,0.5);
+    color: black;
+    margin: 0 auto;
+}
+
+.pokemon_image_area img {
+    display: inline-block;
+}
+
+.input {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scores {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.win_score {
+    padding-left: 1em;
+    float: left;
+}
+
+.lose_score {
+    padding-right: 1em;
+    float: right;
+}
+
+#myDialogWin, #myDialogLose {
+    margin: auto auto;
+    width: 25em;
+    height: 5em;
+    background-color: rgb(52,152,219);
+    border: 5px solid white;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', sans-serif; 
+    color: white;   
+    text-align: center;
+}
+
+#pokemonimage {
+    height: 300px;
+}
+
+footer {
+    padding-top: 1em;
+}
